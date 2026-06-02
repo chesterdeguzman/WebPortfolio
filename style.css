@@ -267,6 +267,20 @@ section {
   position: relative;
   padding-top: 6rem;
   padding-bottom: 8rem;
+  text-align: center;
+}
+
+#about > .section__text__p1,
+#about > .title {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about .section-container {
+  text-align: left;
 }
 
 .about-pic-container {
@@ -314,6 +328,7 @@ section {
 .text-container p {
   margin-bottom: 1.25rem;
   text-align: justify;
+  line-height: 1.8;
 }
 
 /* EXPERTISE SECTION */
